@@ -1,0 +1,179 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.6in,top=0in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tikz}
+
+% Define colors
+\definecolor{darkblue}{RGB}{0,82,155}
+\definecolor{sectioncolor}{RGB}{0,51,102}
+
+% Section formatting
+\titleformat{\section}
+  {\Large\bfseries\color{sectioncolor}}
+  {}{0em}{}[\titlerule]
+
+\titleformat{\subsection}
+  {\large\bfseries}
+  {}{0em}{}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Reduce spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Custom commands
+\newcommand{\workexp}[4]{
+  \subsection*{#1 \hfill #2}
+  \textit{#3} \hfill \textit{#4}
+  \vspace{-0.3em}
+}
+
+\begin{document}
+
+% Header with dark blue rectangle - starts at very top
+\begin{tikzpicture}[remember picture,overlay]
+  \fill[darkblue] (current page.north west) rectangle ([yshift=-2.8cm]current page.north east);
+\end{tikzpicture}
+
+\vspace{0.2cm}
+
+% Header content in white
+\begin{center}
+  \color{white}
+  {\Huge\bfseries Muhammad Hamza}\\[0.4em]
+  \large
+  \faEnvelope\ hamzakhan324231@gmail.com \quad
+  \faMapMarker\ Islamabad \quad
+  \faPhone\ +92 3129984360
+\end{center}
+
+\vspace{1cm}
+
+% About Me / Summary
+\section*{ABOUT ME}
+I'm a Computer Science graduate focused on AI, with practical experience in ML, computer vision, and Python development. I've worked with tools like PyTorch, OpenCV, AWS, and Azure, and I also understand blockchain and Web3 from real community and ambassador roles. I enjoy building AI projects, analyzing data, and turning ideas into working systems—and I'm ready to contribute as an AI Developer, Python Developer, Data Analyst, or Community Manager.
+
+\vspace{0.15em}
+
+% Education
+\section*{EDUCATION AND TRAINING}
+\textbf{BSC Computer Science (Artificial Intelligence)} \hfill \textit{Mardan, Pakistan}\\
+Abdul Wali Khan University Mardan, Pakistan\\
+Website: \href{https://www.awkum.edu.pk/}{https://www.awkum.edu.pk/}
+
+\vspace{0.15em}
+
+% Work Experience
+\section*{WORK EXPERIENCE}
+
+\workexp{AI Tools Researcher \& Developer}{Oct 2024 -- Present}{Independent}{Pakistan (Remote)}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+  \item Researched leading AI tools (ChatGPT, CursorAI, Antigravity, Claude, Gemini, Replit Agents) to improve efficiency and automation
+  \item Built expertise in prompt engineering, workflow optimization, and AI-assisted development
+  \item Developing VeriSure AI, an AI + Blockchain project, using Cursor, ChatGPT, and Antigravity for prototyping
+  \item Continuously explore emerging AI technologies to enhance productivity and apply modern development practices
+\end{itemize}
+
+\vspace{0.15em}
+
+\workexp{Community Manager}{March 2023 -- October 2024}{Solster}{Ahmedabad, India (Remote)}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+  \item Managed and moderated Solster's Telegram community, ensuring a safe and engaging environment for global users
+  \item Responded to user queries, resolved issues, and maintained consistent communication between community and project team
+  \item Facilitated announcements and discussions to sustain user interest and strengthen project visibility
+  \item Monitored community sentiment and reported insights to support strategic decisions
+\end{itemize}
+
+\vspace{0.15em}
+
+\workexp{Ambassador}{Dec 2022 -- July 2024}{Seedify.fund}{Victoria, Seychelles (Remote)}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+  \item Represented Seedify.fund, a leading incubator and launchpad for blockchain games and metaverse projects
+  \item Supported brand ambassadorship and ambassador recruitment, growing a diverse global Web3 community
+  \item Engaged with community members across social channels, answering questions and sharing project updates
+  \item Contributed to community management, online moderation, and educational outreach about blockchain ecosystem
+\end{itemize}
+
+\vspace{0.15em}
+
+% Final Year Project
+\section*{FINAL YEAR PROJECT}
+
+\subsection*{AI-Based Self-Driving Car Prototype \hfill Final Year Project | 2025}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+  \item Developed a small-scale autonomous vehicle prototype integrating computer vision, reinforcement learning, and sensor fusion
+  \item Implemented core autonomous driving functionalities: lane detection, autonomous navigation, and obstacle avoidance
+  \item Utilized Python, OpenCV, and PyTorch for model training, real-time object recognition, and decision-making
+  \item Built a modular system extensible with additional sensors and advanced AI models
+  \item Key features: CV-based lane detection, RL algorithm for navigation, sensor fusion for obstacle avoidance, real-time processing
+\end{itemize}
+
+\vspace{0.15em}
+
+% Technical Skills
+\section*{TECHNICAL SKILLS}
+
+\textbf{Programming Languages:} Python, JavaScript (Node.js), HTML, CSS
+
+\textbf{Web Technologies:} HTML, CSS, REST APIs
+
+\textbf{Databases \& Cloud Platforms:} MySQL, AWS Cloud, Microsoft Azure
+
+\textbf{Frameworks \& Tools:} PyTorch, OpenCV, TensorFlow, Django, Flask, Git
+
+\textbf{AI \& Software Development Skills:} Training and fine-tuning AI models, sensor data processing, building full-stack web applications, deploying cloud-based solutions, integrating machine-learning models into real-world systems
+
+\vspace{0.15em}
+
+% Practical Projects
+\section*{PRACTICAL PROJECTS (SELF LEARNING)}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+  \item \textbf{AI Model Training:} Developed and trained deep learning models using PyTorch for image classification and object detection
+  \item \textbf{Web Application Development:} Built web applications using Django framework with database integration and user authentication
+  \item \textbf{Data Analysis Projects:} Performed data analysis and visualization using Python libraries (Pandas, NumPy, Matplotlib)
+  \item \textbf{Blockchain Community Management:} Managed and grew online communities for Web3 projects, creating educational content
+\end{itemize}
+
+\vspace{0.1em}
+
+% Page break for two-page layout
+\newpage
+
+% Set normal margins for page 2 onwards
+\newgeometry{margin=0.6in}
+
+% Certifications
+\section*{CERTIFICATIONS}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=2pt]
+  \item \href{https://www.coursera.org/account/accomplishments/certificate/JLTU9X9BJKEH}{Python Data Structures} -- University of Michigan (Coursera) | Sep 2023
+  \item \href{https://www.coursera.org/account/accomplishments/certificate/ZJ9DWVK7X2ZX}{Python for Data Science and AI} -- Coursera | Aug 2023
+  \item \href{https://www.credly.com/badges/737f625f-2451-40d7-836e-54a7a8c22cb1/linked_in_profile}{Preparation for Job Interviews} -- Coursera | Aug 2023
+\end{itemize}
+
+\vspace{0.15em}
+
+% Additional Courses
+\section*{ADDITIONAL COURSES}
+Artificial Intelligence and Machine Learning, Deep Learning and Neural Networks, Computer Vision, Data Structures and Algorithms, Web Application Development, Database Management Systems, Object-Oriented Programming, Data Analysis and Visualization
+
+\vspace{0.15em}
+
+% Language Skills
+\section*{LANGUAGE SKILLS}
+\textbf{Mother tongue:} Pashto\\
+\textbf{Other languages:} Urdu, English, German (A1)
+
+\vspace{0.15em}
+
+% References
+\section*{REFERENCES}
+References available upon request.
+
+\end{document}

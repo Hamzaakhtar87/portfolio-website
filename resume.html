@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Muhammad Hamza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .resume-container {
+            padding-top: 15vh;
+            /* Increased top padding to prevent overlap */
+            padding-bottom: 4rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .resume-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .resume-viewer {
+            width: 100%;
+            height: 80vh;
+            background: #111;
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Particles Background -->
+    <div id="particles-background" style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1;"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo gradient-text">MH</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="resume.html" class="nav-link active">Resume</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="resume-container">
+            <div class="resume-header">
+                <div>
+                    <h1>My Resume</h1>
+                    <p>View or download my latest resume.</p>
+                </div>
+                <a href="assets/resume.pdf" download="Muhammad_Hamza_Resume.pdf" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download PDF
+                </a>
+            </div>
+
+            <div class="resume-viewer glass-card">
+                <!-- Replace 'assets/resume.pdf' with the actual path to your resume file -->
+                <iframe src="assets/resume.pdf" title="Resume PDF">
+                    <p>Your browser does not support PDFs. <a href="assets/resume.pdf">Download the PDF</a>.</p>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Muhammad Hamza. Built with <i class="fas fa-bolt" style="color:var(--color-accent-blue)"></i>
+                and <i class="fas fa-heart" style="color:var(--color-accent-purple)"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

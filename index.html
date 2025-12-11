@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Hamza | AI Developer & Community Architect</title>
+    <meta name="description"
+        content="Portfolio of Muhammad Hamza - AI Developer specialized in Python, Deep Learning, and Web3 Communities.">
+
+    <!-- CSS & Icons -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Dynamic Background -->
+    <div id="particles-background"
+        style="position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; pointer-events:none;"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo" style="color: white; font-weight: 800; font-size: 1.8rem;">MH<span
+                    style="color:var(--color-accent-blue)">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Who I Am</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="resume.html" class="nav-link" style="color: var(--color-accent-blue);">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h2>Hello, I'm</h2>
+                    <h1 class="gradient-text">Muhammad Hamza</h1>
+                    <div style="height: 2rem; margin-bottom: 1.5rem;">
+                        <span id="typing-text"
+                            style="font-family: var(--font-code); color: var(--color-text-secondary); font-size: 1.25rem;"></span><span
+                            class="cursor" style="color:var(--color-accent-blue)">|</span>
+                    </div>
+                    <p class="hero-desc">
+                        A Computer Science graduate specializing in <strong>Artificial Intelligence</strong> and
+                        <strong>Web3 Communities</strong>.
+                        Blending technical precision with creative vision to build intelligent systems and vibrant
+                        digital ecosystems.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">
+                            View Work <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Let's Talk
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper fade-in" style="animation-delay: 0.2s;">
+                    <!-- Placeholder for Aesthetic Portrait -->
+                    <img src="assets/profile-photo.png" alt="Muhammad Hamza" class="hero-img">
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div
+                style="position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); animation: bounce 2s infinite;">
+                <a href="#about" style="color: var(--color-text-secondary); font-size: 1.5rem;"><i
+                        class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card fade-in">
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    I'm a Computer Science graduate focused on <strong>Artificial Intelligence</strong>, with practical
+                    experience in Machine Learning, Computer Vision, and Python development. I've worked with
+                    cutting-edge tools like <strong>PyTorch, OpenCV, AWS, and Azure</strong>. Beyond code, I understand
+                    blockchain and Web3 from real community and ambassador roles. I enjoy building AI projects,
+                    analyzing data, and turning ideas into working systems.
+                </p>
+                <div style="display: flex; gap: 2rem; margin-top: 2rem; flex-wrap: wrap;">
+                    <div style="flex: 1; min-width: 200px;">
+                        <h3 style="color: var(--color-accent-blue); margin-bottom: 1rem;">Values</h3>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 0.5rem;"><i class="fas fa-check"
+                                    style="color:var(--color-text-muted)"></i> <strong>Simplicity:</strong> Clean code &
+                                design.</li>
+                            <li style="margin-bottom: 0.5rem;"><i class="fas fa-check"
+                                    style="color:var(--color-text-muted)"></i> <strong>Creativity:</strong> Unique
+                                problem solving.</li>
+                            <li style="margin-bottom: 0.5rem;"><i class="fas fa-check"
+                                    style="color:var(--color-text-muted)"></i> <strong>Independence:</strong>
+                                Self-driven learner.</li>
+                        </ul>
+                    </div>
+                    <div style="flex: 1; min-width: 200px;">
+                        <h3 style="color: var(--color-accent-purple); margin-bottom: 1rem;">Interests</h3>
+                        <div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+                            <span class="course-tag">Artificial Intelligence</span>
+                            <span class="course-tag">Photography</span>
+                            <span class="course-tag">Content Creation</span>
+                            <span class="course-tag">Web3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (RESTORED) -->
+    <section id="experience" class="section" style="background: var(--color-bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <!-- Role 1 -->
+                <div class="timeline-item fade-in">
+                    <span class="timeline-dot"></span>
+                    <span class="timeline-date">Oct 2024 - Present</span>
+                    <h3>AI Tools Researcher & Developer</h3>
+                    <h4 style="font-size: 1.1rem; color: var(--color-text-secondary); margin-bottom: 1rem;">Independent
+                        - Remote</h4>
+                    <p>
+                        Researched and worked with leading AI tools (ChatGPT, CursorAI, Antigravity, Claude, Gemini) to
+                        improve efficiency.
+                        Currently working on <strong>VeriSure AI</strong>, an AI + Blockchain project, using advanced
+                        prototyping.
+                    </p>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="timeline-item fade-in">
+                    <span class="timeline-dot"
+                        style="background: var(--color-accent-purple); box-shadow: 0 0 10px var(--color-accent-purple);"></span>
+                    <span class="timeline-date">Mar 2023 - Oct 2024</span>
+                    <h3>Community Manager</h3>
+                    <h4 style="font-size: 1.1rem; color: var(--color-text-secondary); margin-bottom: 1rem;">Solster -
+                        Remote</h4>
+                    <p>
+                        Managed Solster's Telegram community, ensuring a safe, engaging environment. Facilitated
+                        announcements and monitored community sentiment to support strategic decisions.
+                    </p>
+                </div>
+
+                <!-- Role 3 -->
+                <div class="timeline-item fade-in">
+                    <span class="timeline-dot"
+                        style="background: var(--color-accent-blue); box-shadow: 0 0 10px var(--color-accent-blue);"></span>
+                    <span class="timeline-date">Dec 2022 - Jul 2024</span>
+                    <h3>Ambassador</h3>
+                    <h4 style="font-size: 1.1rem; color: var(--color-text-secondary); margin-bottom: 1rem;">Seedify.fund
+                        - Remote</h4>
+                    <p>
+                        Represented a leading blockchain incubator. Supported ambassador recruitment and recruited
+                        global Web3 enthusiasts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (CORRECTED) -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Selected Works</h2>
+
+            <div class="projects-grid">
+                <!-- Project 1: VeriSure (Priority) -->
+                <div class="project-card fade-in">
+                    <span class="project-status"><i class="fas fa-tools"></i> Under Development</span>
+                    <div class="project-img">
+                        <i class="fas fa-shield-alt" style="color: var(--color-accent-purple);"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>VeriSure AI</h3>
+                        <p>An innovative AI + Blockchain based verification system. Utilizing advanced large language
+                            models for prototyping and smart contract auditing.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Start-up</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Blockchain</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: FYP -->
+                <div class="project-card fade-in" style="animation-delay: 0.1s;">
+                    <div class="project-img">
+                        <i class="fas fa-car-side" style="color: var(--color-accent-blue);"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Self-Driving Vehicle Prototype</h3>
+                        <p>Resource-constrained autonomous vehicle system implementing lane detection and object
+                            avoidance using YOLOv5 & OpenCV.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">YOLOv5</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="https://github.com/Hamzaakhtar87/fyp-self-driving-vehicle" target="_blank"
+                                class="btn btn-outline" style="width: 100%; justify-content: center;">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Portfolio Website (Meta) -->
+                <div class="project-card fade-in" style="animation-delay: 0.15s;">
+                    <div class="project-img">
+                        <i class="fas fa-laptop-code" style="color: #fff;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>My Portfolio Website</h3>
+                        <p>Designed and built this responsive portfolio using a custom aesthetic, glassmorphism, and
+                            optimized performance without external frameworks.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JS</span>
+                            <span class="tech-tag">Dark Mode</span>
+                        </div>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">
+                                <i class="fab fa-github"></i> Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Weather Prediction -->
+                <div class="project-card fade-in" style="animation-delay: 0.2s;">
+                    <div class="project-img">
+                        <i class="fas fa-cloud-sun-rain" style="color: #F59E0B;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Prediction</h3>
+                        <p>A machine learning model to forecast weather conditions based on historical data patterns and
+                            meteorological inputs.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">CodSoft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Calculator -->
+                <div class="project-card fade-in" style="animation-delay: 0.25s;">
+                    <div class="project-img">
+                        <i class="fas fa-calculator" style="color: var(--color-text-secondary);"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Advanced Calculator</h3>
+                        <p>A GUI-based calculator application capable of handling standard arithmetic and scientific
+                            operations.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">CodSoft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Quiz Game -->
+                <div class="project-card fade-in" style="animation-delay: 0.3s;">
+                    <div class="project-img">
+                        <i class="fas fa-question-circle" style="color: var(--color-accent-purple);"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Quiz Game</h3>
+                        <p>A dynamic quiz application featuring multiple choice questions, score tracking, and time
+                            limits.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Logic</span>
+                            <span class="tech-tag">CodSoft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: Random Password -->
+                <div class="project-card fade-in" style="animation-delay: 0.35s;">
+                    <div class="project-img">
+                        <i class="fas fa-key" style="color: var(--color-accent-cyan);"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Random Password Gen</h3>
+                        <p>Security tool to generate strong, randomized passwords with customizable length and character
+                            sets.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">CodSoft</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: To-Do List -->
+                <div class="project-card fade-in" style="animation-delay: 0.4s;">
+                    <div class="project-img">
+                        <i class="fas fa-list-check" style="color: var(--color-accent-blue);"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>To-Do List App</h3>
+                        <p>Task management application allowing users to add, delete, and mark tasks as complete with
+                            data persistence.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">GUI</span>
+                            <span class="tech-tag">CodSoft</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (RESTORED) -->
+    <section id="skills" class="section" style="background: var(--color-bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+
+                <!-- Category 1: Programming -->
+                <div class="glass-card fade-in">
+                    <h3><i class="fas fa-code" style="color: var(--color-accent-blue);"></i> Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python</span><span>95%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript</span><span>80%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML/CSS</span><span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2: AI & ML -->
+                <div class="glass-card fade-in" style="animation-delay: 0.1s;">
+                    <h3><i class="fas fa-brain" style="color: var(--color-accent-purple);"></i> AI & ML</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>PyTorch</span><span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>OpenCV</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Deep Learning</span><span>87%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Cloud -->
+                <div class="glass-card fade-in" style="animation-delay: 0.2s;">
+                    <h3><i class="fas fa-cloud" style="color: var(--color-accent-cyan);"></i> Cloud & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>AWS</span><span>75%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Azure</span><span>70%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Git/GitHub</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section (RESTORED) -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+
+                <!-- Degree -->
+                <div class="glass-card fade-in">
+                    <h3 style="color: var(--color-accent-blue);"><i class="fas fa-graduation-cap"></i> Degree</h3>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="font-size: 1.25rem;">BS Computer Science (AI)</h4>
+                        <p style="color: var(--color-accent-purple); margin-bottom: 0.5rem;">Abdul Wali Khan University
+                            Mardan | 2021 - 2025</p>
+                        <p>Specialized in Artificial Intelligence with a focus on Machine Learning, Deep Learning, and
+                            Computer Vision. Final Year Project: AI-Based Self-Driving Car Prototype.</p>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="glass-card fade-in">
+                    <h3 style="color: var(--color-accent-cyan);"><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul class="cert-list" style="margin-top: 1.5rem;">
+                        <li class="cert-item">
+                            <i class="fas fa-check-circle" style="color: #10B981;"></i>
+                            <div><strong>Python Data Structures</strong> - University of Michigan (Coursera)</div>
+                        </li>
+                        <li class="cert-item">
+                            <i class="fas fa-check-circle" style="color: #10B981;"></i>
+                            <div><strong>Python for Data Science & AI</strong> - Coursera</div>
+                        </li>
+                        <li class="cert-item">
+                            <i class="fas fa-check-circle" style="color: #10B981;"></i>
+                            <div><strong>Preparation for Job Interviews</strong> - Coursera</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="glass-card fade-in" style="margin-top: 2rem;">
+                <h3><i class="fas fa-book"></i> Additional Coursework</h3>
+                <div class="course-grid">
+                    <span class="course-tag">AI & Machine Learning</span>
+                    <span class="course-tag">Deep Learning</span>
+                    <span class="course-tag">Computer Vision</span>
+                    <span class="course-tag">Data Structures</span>
+                    <span class="course-tag">Web Development</span>
+                    <span class="course-tag">Database Management</span>
+                    <span class="course-tag">OOP</span>
+                    <span class="course-tag">Data Visualization</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact-wrapper">
+                <div class="glass-card fade-in">
+                    <h3 style="margin-bottom: 2rem;">Let's build something amazing.</h3>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <p style="margin:0; font-size: 0.9rem; color: var(--color-text-muted);">Email Me</p>
+                            <a href="mailto:hamzakhan324231@gmail.com"
+                                style="color: white; font-weight: 600;">hamzakhan324231@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <p style="margin:0; font-size: 0.9rem; color: var(--color-text-muted);">WhatsApp</p>
+                            <a href="https://wa.me/923129984360" target="_blank"
+                                style="color: white; font-weight: 600;">+92 312 9984360</a>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; display: flex; gap: 1rem;">
+                        <a href="https://www.linkedin.com/in/muhammad-hamza-5690281b2/" target="_blank"
+                            class="btn btn-outline"
+                            style="border-radius: 50%; width: 50px; height: 50px; padding: 0; justify-content: center;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Hamzaakhtar87" target="_blank" class="btn btn-outline"
+                            style="border-radius: 50%; width: 50px; height: 50px; padding: 0; justify-content: center;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- Placeholders for TikTok & Insta -->
+                        <a href="#" class="btn btn-outline"
+                            style="border-radius: 50%; width: 50px; height: 50px; padding: 0; justify-content: center;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline"
+                            style="border-radius: 50%; width: 50px; height: 50px; padding: 0; justify-content: center;">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="glass-card fade-in" style="animation-delay: 0.2s;" id="contact-form">
+                    <div class="form-group">
+                        <label for="name"
+                            style="display: block; margin-bottom: 0.5rem; color: var(--color-text-secondary);">Your
+                            Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"
+                            style="display: block; margin-bottom: 0.5rem; color: var(--color-text-secondary);">Your
+                            Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="type"
+                            style="display: block; margin-bottom: 0.5rem; color: var(--color-text-secondary);">Project
+                            Type</label>
+                        <select id="type" class="form-control" style="appearance: none;">
+                            <option>Web Development</option>
+                            <option>AI / Machine Learning</option>
+                            <option>Data Analysis</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"
+                            style="display: block; margin-bottom: 0.5rem; color: var(--color-text-secondary);">Message</label>
+                        <textarea id="message" rows="4" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p style="color: var(--color-text-muted);">
+                &copy; 2025 <strong>Muhammad Hamza</strong>. Built with <i class="fas fa-bolt"
+                    style="color: var(--color-accent-blue);"></i> and aesthetics.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
